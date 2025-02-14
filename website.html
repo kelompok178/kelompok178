@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olshop Baju Perempuan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            height: 100%;
+            overflow-y: auto;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .header-img-container {
+            position: relative;
+        }
+        .header-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+            align-items: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .product-card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            margin: 15px 0;
+        }
+        .product-card p {
+            color: #777;
+            margin: 0 15px 15px;
+        }
+        .price {
+            font-weight: bold;
+            color: #ff66b2;
+            margin-bottom: 15px;
+        }
+        .product-card button {
+            background-color: #ff66b2;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .product-card button:hover {
+            background-color: #ff3385;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-img-container">
+        <div class="header-text">
+
+            <h1>Olshop Baju Perempuan</h1>
+            <br><br><br><br><br><br><br><br><br><br><br>
+
+            
+        </div>
+        <img src="kelompok.jpeg" alt="Olshop Baju Perempuan" class="header-img">
+    </div>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Produk</a>
+    <a href="#">Tentang Kami</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <div class="product-card">
+        <img src="dress.jpeg" alt="Baju 1">
+        <h3>Dress Elegan</h3>
+        <p>Baju dress elegan dengan desain simpel namun mewah. Cocok untuk berbagai acara.</p>
+        <div class="price">Rp 151.050</div>
+        <a href="https://id.shp.ee/GjXpAwb" target="_blank"><button>Beli Sekarang</button></a>
+    </div>
+    <div class="product-card">
+        <img src="tunik.jpeg" alt="Baju 2">
+        <h3>Tunik Kasual</h3>
+        <p>Tunik kasual yang nyaman dan modis. Bisa dipadukan dengan jeans atau rok.</p>
+        <div class="price">Rp 60.100</div>
+        <a href="https://id.shp.ee/Pn3wTeP" target="_blank"><button>Beli Sekarang</button></a>
+    </div>
+    <div class="product-card">
+        <img src="blouse.jpeg" alt="Baju 3">
+        <h3>Blouse Wanita</h3>
+        <p>Blouse cantik dengan desain minimalis, sempurna untuk dipakai sehari-hari.</p>
+        <div class="price">Rp 104.500</div>
+        <a href="https://id.shp.ee/nyhuDeJ" target="_blank"><button>Beli Sekarang</button></a>
+    </div>
+    <div class="product-card">
+        <img src="celana.jpeg" alt="Baju 4">
+        <h3>Celana Casual</h3>
+        <p>Celana kekinan dengan bahan katun, sempurna untuk dipakai sehari-hari maupun bekerja.</p>
+        <div class="price">Rp 38.900</div>
+        <a href="https://id.shp.ee/W2XkJC3" target="_blank"><button>Beli Sekarang</button></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Olshop Baju Perempuan. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
